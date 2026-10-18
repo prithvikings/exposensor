@@ -1,10 +1,11 @@
 import { StyleSheet, View } from "react-native";
-import TiltCounter from "../../components/tilt-counter";
+import RotationIndicator from "../../components/rotation-indicator";
 
 export default function Index() {
   return (
     <View style={styles.container}>
-      <TiltCounter />
+      {/* <TiltCounter /> */}
+      <RotationIndicator />
     </View>
   );
 }
