@@ -1,11 +1,12 @@
 import { StyleSheet, View } from "react-native";
-import RotationIndicator from "../../components/rotation-indicator";
+import Compass from "../../components/compass";
 
 export default function Index() {
   return (
     <View style={styles.container}>
       {/* <TiltCounter /> */}
-      <RotationIndicator />
+      {/* <RotationIndicator /> */}
+      <Compass />
     </View>
   );
 }
